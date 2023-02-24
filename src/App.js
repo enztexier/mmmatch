@@ -7,6 +7,7 @@ import Display from "./Display";
 const App = () => {
 
   const [quotes, setQuotes] = useState(Data);
+  const [click, setClick] = useState(false);
 
   const menuTypes = [...new Set(Data.map((Val) => Val.type))];
 
@@ -15,20 +16,23 @@ const App = () => {
       return newVal.type === curcat;
     });
     setQuotes(newItem);
+    setClick(true);
   };
   
   return (
     <>
 
     <h1>MMMATCH</h1>
-    <Buttons
+
+
+    {click ?  <Display quotes={quotes} setClick={setClick} /> : 
+        <Buttons
             filterQuotes={filterQuotes}
             setQuotes={setQuotes}
-            menuTypes={menuTypes}
-          />
-
-{filterQuotes.length > 0 && <Display quotes={quotes} /> }
-
+            menuTypes={menuTypes} 
+            setClick={setClick}
+          /> }
+    
     </>
   );
 };

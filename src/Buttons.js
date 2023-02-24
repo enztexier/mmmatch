@@ -1,7 +1,13 @@
 import React from "react";
 import Data from "./Data";
 
-const Buttons = ({ filterQuotes, setQuotes, menuTypes }) => {
+const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
+
+    const handleClick = () => {
+        setClick(true);
+        setQuotes(Data)
+    }
+
   return (
     <>
 
@@ -16,7 +22,7 @@ const Buttons = ({ filterQuotes, setQuotes, menuTypes }) => {
           );
         })}
         <button
-          onClick={() => setQuotes(Data)}
+          onClick={handleClick}
         >
           +
         </button>
