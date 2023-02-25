@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 const Display = ({quotes, setClick}) => {
 
-    const arrayHistory = [];
     let indexRandom = 0;
-    let indexArray = 0;
-    const [Single, setSingle] = useState("yooooo");
+    const [indexArray, setIndexArray] = useState(0);
+    const [history, setHistory] = useState([]);
+    const [single, setSingle] = useState('yooooo');
 
     let randomNumber = (max) => {
         return Math.floor(Math.random() * max);
@@ -14,24 +14,28 @@ const Display = ({quotes, setClick}) => {
     function nextQuote() {
 
         
-        console.log(arrayHistory.length);
+        console.log("history: " + history.length);
+        console.log("indexArray: " + indexArray);
 
-        if(!arrayHistory.length){
+
+        if(!history.length){
             indexRandom = randomNumber(quotes.length);
             console.log("1:" + indexRandom);
-            arrayHistory.push(quotes[indexRandom]);
-            setSingle(arrayHistory[0]);
-            //document.getElementById("dos").innerHTML = arrayHistory[0];
+            let addHistory = quotes[indexRandom];
+            console.log("just add: " + addHistory);
+            history.push(quotes[indexRandom]);
+            console.log("tableau: " + history[0]);
+            setSingle(history[0]);
+            //setIndexArray(1);
           }
         
-          else if(quotes.length === arrayHistory.length && indexArray === (quotes.length - 1)){
+          else if(quotes.length === history.length && indexArray === (quotes.length - 1)){
             indexArray++;
-            //document.getElementById("dos").innerHTML = "Finish"
             setSingle("Finish");
             console.log("2:");
           }
         
-          else if(arrayHistory.length === (indexArray + 1)){
+          else if(history.length === (indexArray + 1)){
         
             indexRandom = randomNumber(quotes.length);
             console.log("3:");
@@ -39,18 +43,19 @@ const Display = ({quotes, setClick}) => {
             do{
               indexRandom = randomNumber(quotes.length);
             }
-            while(arrayHistory.includes(quotes[indexRandom]))
+            while(history.includes(quotes[indexRandom]))
         
-            arrayHistory.push(quotes[indexRandom]);
-            indexArray = arrayHistory.length - 1;
-            setSingle(arrayHistory[indexArray]);
+            history.push(quotes[indexRandom]);
+            setIndexArray(history.length - 1)
+            //indexArray = history.length - 1;
+            setSingle(history[indexArray]);
             //document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
         
           else if (indexArray < quotes.length) {
             indexArray++;
             console.log("4:");
-            setSingle(arrayHistory[indexArray]);
+            setSingle(history[indexArray]);
             //document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
 
@@ -60,7 +65,7 @@ const Display = ({quotes, setClick}) => {
 
         if(indexArray > 0){
             indexArray--;
-            setSingle(arrayHistory[indexArray]);
+            setSingle(history[indexArray]);
            // document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
         
@@ -78,7 +83,7 @@ const Display = ({quotes, setClick}) => {
             <button onClick={() => setClick(false)}>BACK</button>
             <button onClick={() => prevQuote()}>prev</button>
             <button onClick={() => nextQuote()}>next</button>
-            <h1 key={Single.id}>{Single.quote}</h1>
+            <h1 key={single.id}>{single.quote}</h1>
             {quotes.map((Val) => {
             return (
                 <h1 key={Val.id}>{Val.quote}</h1>
