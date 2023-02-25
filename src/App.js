@@ -18,12 +18,11 @@ const App = () => {
     setQuotes(newItem);
     setClick(true);
   };
-  
+
   return (
     <>
 
     <h1>MMMATCH</h1>
-
 
     {click ?  <Display quotes={quotes} setClick={setClick} /> : 
         <Buttons

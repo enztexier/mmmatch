@@ -24,7 +24,7 @@ const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
         <button
           onClick={handleClick}
         >
-          +
+          tout le monde
         </button>
 
     </>

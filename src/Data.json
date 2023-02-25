@@ -2,41 +2,41 @@
     {
         "id": "1",
         "quote": "111111111",
-        "type": "m"
+        "type": "homme"
     },
     {
         "id": "2",
         "quote": "222222222",
-        "type": "f"
+        "type": "femme"
     },
     {
         "id": "3",
         "quote": "3333333333",
-        "type": "f"
+        "type": "femme"
     },
     {
         "id": "4",
         "quote": "4444444444",
-        "type": "e"
+        "type": "homme"
     },
     {
         "id": "5",
         "quote": "55555555555",
-        "type": "m"
+        "type": "homme"
     },
     {
         "id": "6",
         "quote": "66666666666",
-        "type": "f"
+        "type": "femme"
     },
     {
         "id": "7",
         "quote": "777777777777",
-        "type": "m"
+        "type": "homme"
     },
     {
         "id": "8",
         "quote": "88888888888888",
-        "type": "f"
+        "type": "femme"
     }
 ]
