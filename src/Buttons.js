@@ -1,5 +1,6 @@
 import React from "react";
 import Data from "./Data";
+import './Button.css';
 
 const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
 
@@ -13,7 +14,7 @@ const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
 
         {menuTypes.map((Val, id) => {
           return (
-            <button
+            <button className="menu_button"
               onClick={() => filterQuotes(Val)}
               key={id}
             >
@@ -21,10 +22,10 @@ const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
             </button>
           );
         })}
-        <button
+        <button className="menu_button"
           onClick={handleClick}
         >
-          tout le monde
+          Everybody
         </button>
 
     </>

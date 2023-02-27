@@ -24,6 +24,7 @@ const App = () => {
 
     <h1>MMMATCH</h1>
 
+    <div className='box'>
     {click ?  <Display quotes={quotes} setClick={setClick} /> : 
         <Buttons
             filterQuotes={filterQuotes}
@@ -31,6 +32,7 @@ const App = () => {
             menuTypes={menuTypes} 
             setClick={setClick}
           /> }
+    </div>
     
     </>
   );

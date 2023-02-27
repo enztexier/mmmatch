@@ -2,41 +2,41 @@
     {
         "id": "1",
         "quote": "111111111",
-        "type": "homme"
+        "type": "Pour Elle"
     },
     {
         "id": "2",
         "quote": "222222222",
-        "type": "femme"
+        "type": "Pour Lui"
     },
     {
         "id": "3",
         "quote": "3333333333",
-        "type": "femme"
+        "type": "Pour Elle"
     },
     {
         "id": "4",
         "quote": "4444444444",
-        "type": "homme"
+        "type": "Pour Lui"
     },
     {
         "id": "5",
         "quote": "55555555555",
-        "type": "homme"
+        "type": "Pour Lui"
     },
     {
         "id": "6",
         "quote": "66666666666",
-        "type": "femme"
+        "type": "Pour Elle"
     },
     {
         "id": "7",
         "quote": "777777777777",
-        "type": "homme"
+        "type": "Pour Lui"
     },
     {
         "id": "8",
         "quote": "88888888888888",
-        "type": "femme"
+        "type": "Pour Elle"
     }
 ]

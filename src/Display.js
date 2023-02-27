@@ -16,6 +16,7 @@ const Display = ({quotes, setClick}) => {
         
         console.log("history: " + history.length);
         console.log("indexArray: " + indexArray);
+        console.log(!history.length);
 
 
         if(!history.length){
@@ -26,35 +27,46 @@ const Display = ({quotes, setClick}) => {
             history.push(quotes[indexRandom]);
             console.log("tableau: " + history[0]);
             setSingle(history[0]);
-            //setIndexArray(1);
+            //setIndexArray(indexArray + 1);
+            console.log("indexArray: " + indexArray);
+            console.log("history: " + history.length);
           }
-        
+    
           else if(quotes.length === history.length && indexArray === (quotes.length - 1)){
-            indexArray++;
+            //indexArray++;
             setSingle("Finish");
             console.log("2:");
           }
-        
+    
           else if(history.length === (indexArray + 1)){
         
             indexRandom = randomNumber(quotes.length);
-            console.log("3:");
+            console.log("3: " + indexRandom);
         
             do{
               indexRandom = randomNumber(quotes.length);
             }
             while(history.includes(quotes[indexRandom]))
         
+            console.log("33: " + quotes[indexRandom])
             history.push(quotes[indexRandom]);
-            setIndexArray(history.length - 1)
+            console.log(quotes[indexRandom]);
+            setIndexArray(indexArray + 2);
+            console.log("in: " + indexArray);
+            //setIndexArray(history.length - 1);
             //indexArray = history.length - 1;
+            console.log(history.length);
+            console.log(history[indexArray]);
             setSingle(history[indexArray]);
+            console.log(single);
             //document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
         
           else if (indexArray < quotes.length) {
-            indexArray++;
-            console.log("4:");
+            setIndexArray(indexArray + 1);
+            console.log(indexArray);
+            console.log(history);
+            console.log("4: " + history[indexArray]);
             setSingle(history[indexArray]);
             //document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
@@ -64,13 +76,13 @@ const Display = ({quotes, setClick}) => {
     let prevQuote = () => {
 
         if(indexArray > 0){
-            indexArray--;
+            //indexArray--;
             setSingle(history[indexArray]);
            // document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
         
           else if (indexArray === 0) {
-            indexArray--;
+            //indexArray--;
             setSingle("Start");
            // document.getElementById("dos").innerHTML = "Start";
           }
@@ -84,13 +96,20 @@ const Display = ({quotes, setClick}) => {
             <button onClick={() => prevQuote()}>prev</button>
             <button onClick={() => nextQuote()}>next</button>
             <h1 key={single.id}>{single.quote}</h1>
-            {quotes.map((Val) => {
-            return (
-                <h1 key={Val.id}>{Val.quote}</h1>
-            );
-          })}
+            
+
         </div>
     );
 };
 
 export default Display;
+
+/*
+
+            {quotes.map((Val) => {
+            return (
+                <h1 key={Val.id}>{Val.quote}</h1>
+            );
+          })}
+
+          */
