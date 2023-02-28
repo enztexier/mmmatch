@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Display = ({quotes, setClick}) => {
 
@@ -10,6 +10,19 @@ const Display = ({quotes, setClick}) => {
     let randomNumber = (max) => {
         return Math.floor(Math.random() * max);
     }
+
+    useEffect(() => {
+      indexRandom = randomNumber(quotes.length);
+      console.log("1:" + indexRandom);
+      let addHistory = quotes[indexRandom];
+      console.log("just add: " + addHistory);
+      history.push(quotes[indexRandom]);
+      console.log("tableau: " + history[0]);
+      setSingle(history[0]);
+      //setIndexArray(indexArray + 1);
+      console.log("indexArray: " + indexArray);
+      console.log("history: " + history.length);
+    },[]);
 
     function nextQuote() {
 
