@@ -13,103 +13,69 @@ const Display = ({quotes, setClick}) => {
 
     useEffect(() => {
       indexRandom = randomNumber(quotes.length);
-      console.log("1:" + indexRandom);
-      let addHistory = quotes[indexRandom];
-      console.log("just add: " + addHistory);
       history.push(quotes[indexRandom]);
-      console.log("tableau: " + history[0]);
+      setIndexArray(indexArray + 1);
       setSingle(history[0]);
-      //setIndexArray(indexArray + 1);
-      console.log("indexArray: " + indexArray);
-      console.log("history: " + history.length);
     },[]);
 
     function nextQuote() {
-
-        
-        console.log("history: " + history.length);
-        console.log("indexArray: " + indexArray);
-        console.log(!history.length);
-
-
-        if(!history.length){
-            indexRandom = randomNumber(quotes.length);
-            console.log("1:" + indexRandom);
-            let addHistory = quotes[indexRandom];
-            console.log("just add: " + addHistory);
-            history.push(quotes[indexRandom]);
-            console.log("tableau: " + history[0]);
-            setSingle(history[0]);
-            //setIndexArray(indexArray + 1);
-            console.log("indexArray: " + indexArray);
-            console.log("history: " + history.length);
+    
+          if(quotes.length === history.length && quotes.length === (indexArray)){
+            setIndexArray(indexArray + 1);
+            history.push({quote:"finish"});
+            setSingle(history[indexArray]);
           }
     
-          else if(quotes.length === history.length && indexArray === (quotes.length - 1)){
-            //indexArray++;
-            setSingle("Finish");
-            console.log("2:");
-          }
-    
-          else if(history.length === (indexArray + 1)){
+          else if(history.length === (indexArray)){
         
             indexRandom = randomNumber(quotes.length);
-            console.log("3: " + indexRandom);
         
             do{
               indexRandom = randomNumber(quotes.length);
             }
             while(history.includes(quotes[indexRandom]))
         
-            console.log("33: " + quotes[indexRandom])
             history.push(quotes[indexRandom]);
-            console.log(quotes[indexRandom]);
-            setIndexArray(indexArray + 2);
-            console.log("in: " + indexArray);
-            //setIndexArray(history.length - 1);
-            //indexArray = history.length - 1;
-            console.log(history.length);
-            console.log(history[indexArray]);
+            setIndexArray(indexArray + 1);
             setSingle(history[indexArray]);
-            console.log(single);
-            //document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
         
           else if (indexArray < quotes.length) {
             setIndexArray(indexArray + 1);
-            console.log(indexArray);
-            console.log(history);
-            console.log("4: " + history[indexArray]);
             setSingle(history[indexArray]);
-            //document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
-
     }
 
     let prevQuote = () => {
 
-        if(indexArray > 0){
-            //indexArray--;
-            setSingle(history[indexArray]);
+        if(indexArray > 1){
+          console.log("prevINDEX: " + indexArray);
+          //console.log(history[indexArray - 2]);
+            setSingle(history[indexArray - 2]);
+            setIndexArray(indexArray - 1);
            // document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
-        
-          else if (indexArray === 0) {
+  
+          else if (indexArray === 1) {
             //indexArray--;
-            setSingle("Start");
+            console.log("prevARRAY0: ");
+            //setSingle("Start");
            // document.getElementById("dos").innerHTML = "Start";
           }
 
     }
 
+    console.log("iindexArray: " + indexArray);
+    console.log("h " + history.length);
+
     return (
         <div>
 
             <button onClick={() => setClick(false)}>BACK</button>
+          
             <button onClick={() => prevQuote()}>prev</button>
             <button onClick={() => nextQuote()}>next</button>
             <h1 key={single.id}>{single.quote}</h1>
-            
 
         </div>
     );
@@ -124,5 +90,19 @@ export default Display;
                 <h1 key={Val.id}>{Val.quote}</h1>
             );
           })}
+
+
+                  if(!history.length){
+            indexRandom = randomNumber(quotes.length);
+            console.log("1:" + indexRandom);
+            let addHistory = quotes[indexRandom];
+            console.log("just add: " + addHistory);
+            history.push(quotes[indexRandom]);
+            console.log("tableau: " + history[0]);
+            setSingle(history[0]);
+            //setIndexArray(indexArray + 1);
+            console.log("indexArray: " + indexArray);
+            console.log("history: " + history.length);
+          }
 
           */
