@@ -21,9 +21,8 @@ const Display = ({quotes, setClick}) => {
     function nextQuote() {
     
           if(quotes.length === history.length && quotes.length === (indexArray)){
+            console.log("FINISH");
             setIndexArray(indexArray + 1);
-            history.push({quote:"finish"});
-            setSingle(history[indexArray]);
           }
     
           else if(history.length === (indexArray)){
@@ -50,19 +49,13 @@ const Display = ({quotes, setClick}) => {
 
         if(indexArray > 1){
           console.log("prevINDEX: " + indexArray);
-          //console.log(history[indexArray - 2]);
             setSingle(history[indexArray - 2]);
             setIndexArray(indexArray - 1);
-           // document.getElementById("dos").innerHTML = arrayHistory[indexArray];
           }
   
           else if (indexArray === 1) {
-            //indexArray--;
-            console.log("prevARRAY0: ");
-            //setSingle("Start");
-           // document.getElementById("dos").innerHTML = "Start";
+            console.log("Start of the List");
           }
-
     }
 
     console.log("iindexArray: " + indexArray);
@@ -72,10 +65,16 @@ const Display = ({quotes, setClick}) => {
         <div>
 
             <button onClick={() => setClick(false)}>BACK</button>
-          
-            <button onClick={() => prevQuote()}>prev</button>
-            <button onClick={() => nextQuote()}>next</button>
+            <br></br>
+            { indexArray > 1 && <button onClick={() => prevQuote()}>prev</button> }
+            { quotes.length === history.length && indexArray > history.length ? 
+            <h1>FINISH</h1> 
+            : 
+            <div>
+            <button onClick={() => nextQuote()}>next</button> 
             <h1 key={single.id}>{single.quote}</h1>
+            </div>
+            }
 
         </div>
     );
@@ -91,18 +90,4 @@ export default Display;
             );
           })}
 
-
-                  if(!history.length){
-            indexRandom = randomNumber(quotes.length);
-            console.log("1:" + indexRandom);
-            let addHistory = quotes[indexRandom];
-            console.log("just add: " + addHistory);
-            history.push(quotes[indexRandom]);
-            console.log("tableau: " + history[0]);
-            setSingle(history[0]);
-            //setIndexArray(indexArray + 1);
-            console.log("indexArray: " + indexArray);
-            console.log("history: " + history.length);
-          }
-
-          */
+*/
