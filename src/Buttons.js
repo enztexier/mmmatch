@@ -11,7 +11,6 @@ const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
 
   return (
     <>
-
         {menuTypes.map((Val, id) => {
           return (
             <button className="menu_button"
@@ -27,7 +26,6 @@ const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
         >
           Everybody
         </button>
-
     </>
   );
 };

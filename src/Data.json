@@ -1,42 +1,42 @@
 [
     {
         "id": "1",
-        "quote": "111111111",
+        "quote": "Je suis pas croyant, mais je crois bien que notre match est la réponse à mes prières.",
         "type": "Pour Elle"
     },
     {
         "id": "2",
-        "quote": "222222222",
+        "quote": "Imagine qu’il ne te reste qu’un jour à vivre sur la terre, que ferais-tu ?",
         "type": "Pour Lui"
     },
     {
         "id": "3",
-        "quote": "3333333333",
+        "quote": "Je ne suis pas donneur d’organe, mais je te donnerais mon coeur…",
         "type": "Pour Elle"
     },
     {
         "id": "4",
-        "quote": "4444444444",
-        "type": "Pour Lui"
+        "quote": " YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO, C’est ton dernier repas, que choisis tu ? Tu as le droit à 3 plats !",
+        "type": "ALL"
     },
     {
         "id": "5",
-        "quote": "55555555555",
+        "quote": "Pour demain soir, tu préfères restaurant italien ou indien ?",
         "type": "Pour Lui"
     },
     {
         "id": "6",
-        "quote": "66666666666",
+        "quote": "S’il n’y avait qu’une chose que je pourrais changer chez toi… ça serait ton nom de famille.",
         "type": "Pour Elle"
     },
     {
         "id": "7",
-        "quote": "777777777777",
-        "type": "Pour Lui"
+        "quote": "Je suis au supermarché, tu as besoin de quoi que ce soit ?",
+        "type": "Pour Elle"
     },
     {
         "id": "8",
-        "quote": "88888888888888",
+        "quote": "Généralement je complimente pas dès le début, mais je dois dire que tu as très bon goût en homme 😉",
         "type": "Pour Elle"
     }
 ]

@@ -9,13 +9,21 @@ const App = () => {
   const [quotes, setQuotes] = useState(Data);
   const [click, setClick] = useState(false);
 
-  const menuTypes = [...new Set(Data.map((Val) => Val.type))];
+  const primaryTypes = [...new Set(Data.map((Val) => Val.type))];
+  console.log(primaryTypes);
+  const menuTypes = primaryTypes.filter(newVal => newVal.length > 4);
+  console.log(menuTypes);
 
   const filterQuotes = (curcat) => {
     const newItem = Data.filter((newVal) => {
       return newVal.type === curcat;
     });
-    setQuotes(newItem);
+    const allItem = Data.filter((newVal) => {
+      return newVal.type === "ALL";
+    });
+
+    const concatQuotes = newItem.concat(allItem);
+    setQuotes(concatQuotes);
     setClick(true);
   };
 
@@ -29,7 +37,7 @@ const App = () => {
         <Buttons
             filterQuotes={filterQuotes}
             setQuotes={setQuotes}
-            menuTypes={menuTypes} 
+            menuTypes={menuTypes}
             setClick={setClick}
           /> }
     </div>
