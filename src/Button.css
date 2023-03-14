@@ -10,4 +10,11 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 50%;
+    font-family: GuyonGazebo;
 }
+
+@font-face {
+    font-family: "GuyonGazebo";
+    src: local("GuyonGazebo"),
+     url("./GuyonGazebo-Regular.otf") format("opentype");
+    }

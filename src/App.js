@@ -3,6 +3,7 @@ import Data from "./Data.json";
 import { useState } from "react";
 import Buttons from "./Buttons";
 import Display from "./Display";
+import './Sunwish-Maverick.otf';
 
 const App = () => {
 
@@ -10,9 +11,7 @@ const App = () => {
   const [click, setClick] = useState(false);
 
   const primaryTypes = [...new Set(Data.map((Val) => Val.type))];
-  console.log(primaryTypes);
   const menuTypes = primaryTypes.filter(newVal => newVal.length > 4);
-  console.log(menuTypes);
 
   const filterQuotes = (curcat) => {
     const newItem = Data.filter((newVal) => {
@@ -30,18 +29,20 @@ const App = () => {
   return (
     <>
 
-    <h1>MMMATCH</h1>
+      <h1 className='title'>MMMATCH</h1>
 
-    <div className='box'>
-    {click ?  <Display quotes={quotes} setClick={setClick} /> : 
-        <Buttons
+      <div className='box'>
+        {click ? 
+        <Display quotes={quotes} setClick={setClick} /> 
+        :
+          <Buttons
             filterQuotes={filterQuotes}
             setQuotes={setQuotes}
             menuTypes={menuTypes}
             setClick={setClick}
-          /> }
-    </div>
-    
+          />}
+      </div>
+
     </>
   );
 };

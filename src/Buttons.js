@@ -1,6 +1,7 @@
 import React from "react";
 import Data from "./Data";
 import './Button.css';
+import './GuyonGazebo-Regular.otf';
 
 const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
 
