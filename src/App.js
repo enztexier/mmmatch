@@ -4,6 +4,7 @@ import { useState } from "react";
 import Buttons from "./Buttons";
 import Display from "./Display";
 import './Sunwish-Maverick.otf';
+import './grainy-gradients.jpg';
 
 const App = () => {
 

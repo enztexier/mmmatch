@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Display.css';
 
 const Display = ({ quotes, setClick }) => {
 
@@ -58,20 +59,26 @@ const Display = ({ quotes, setClick }) => {
   }
 
   return (
-    <div>
-
-      <button onClick={() => setClick(false)}>BACK</button>
-      <br></br>
-      {indexArray > 1 && <button onClick={() => prevQuote()}>prev</button>}
+    <div className='master-box'>
       {quotes.length === history.length && indexArray > history.length ?
         <h1>FINISH</h1>
         :
         <div>
-          <button onClick={() => nextQuote()}>next</button>
           <h1 key={single.id}>{single.quote}</h1>
         </div>
       }
 
+      <div className='direction'>
+        <div className='arrow'>
+          <div className='prev'>
+            {indexArray > 1 && <button onClick={() => prevQuote()}>←</button>}
+          </div>
+          <div className='next'>
+            {quotes.length === history.length && indexArray > history.length ? '' : <button onClick={() => nextQuote()}>→</button>}
+          </div>
+        </div>
+        <button className='back-button' onClick={() => setClick(false)}>BACK</button>
+      </div>
     </div>
   );
 };

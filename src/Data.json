@@ -16,7 +16,7 @@
     },
     {
         "id": "4",
-        "quote": " YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO, C’est ton dernier repas, que choisis tu ? Tu as le droit à 3 plats !",
+        "quote": " YOOOOOOOOOOOO, C’est ton dernier repas, que choisis tu ? Tu as le droit à 3 plats !",
         "type": "ALL"
     },
     {
@@ -38,5 +38,15 @@
         "id": "8",
         "quote": "Généralement je complimente pas dès le début, mais je dois dire que tu as très bon goût en homme 😉",
         "type": "Pour Elle"
+    },
+    {
+        "id": "9",
+        "quote": "Si tu es le fruit de mon imagination, j’en suis fière. J’espère qu’il ne cessera jamais de t’imaginer si c’est le cas",
+        "type": "ALL"
+    },
+    {
+        "id": "10",
+        "quote": "Tu ne peux pas etre réelle, tu est forcement le fruit de mon imagination",
+        "type": "ALL"
     }
 ]
