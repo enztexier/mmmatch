@@ -27,6 +27,7 @@ const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
         >
           Everybody
         </button>
+
     </>
   );
 };

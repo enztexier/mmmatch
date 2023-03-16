@@ -3,6 +3,7 @@ import Data from "./Data.json";
 import { useState } from "react";
 import Buttons from "./Buttons";
 import Display from "./Display";
+import Modal from './Modal';
 import './Sunwish-Maverick.otf';
 import './grainy-gradients.jpg';
 
@@ -27,15 +28,26 @@ const App = () => {
     setClick(true);
   };
 
+  const [isModalVisible, setModalVisible] = useState(false);
+  const toggleModal = () => {
+    setModalVisible(!isModalVisible);
+  };
+
   return (
     <>
+      <div className='ban-box'>
+        <h1 className='title'>MMMATCH</h1>
+        <p className="stars">✦</p>
+      </div>
 
-      <h1 className='title'>MMMATCH</h1>
+    <button onClick={toggleModal}>modale</button>
+
+      <Modal isModalVisible={isModalVisible} toggleModal={toggleModal}></Modal>
 
       <div className='box'>
-        {click ? 
-        <Display quotes={quotes} setClick={setClick} /> 
-        :
+        {click ?
+          <Display quotes={quotes} setClick={setClick} />
+          :
           <Buttons
             filterQuotes={filterQuotes}
             setQuotes={setQuotes}

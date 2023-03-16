@@ -61,10 +61,10 @@ const Display = ({ quotes, setClick }) => {
   return (
     <div className='master-box'>
       {quotes.length === history.length && indexArray > history.length ?
-        <h1>FINISH</h1>
+        <h1 className='lineUp' >FINISH</h1>
         :
         <div>
-          <h1 key={single.id}>{single.quote}</h1>
+          <h1 className='lineUp' key={single.id}>{single.quote}</h1>
         </div>
       }
 
@@ -77,7 +77,7 @@ const Display = ({ quotes, setClick }) => {
             {quotes.length === history.length && indexArray > history.length ? '' : <button onClick={() => nextQuote()}>→</button>}
           </div>
         </div>
-        <button className='back-button' onClick={() => setClick(false)}>BACK</button>
+        <button className='back-button' onClick={() => setClick(false)}>MENU</button>
       </div>
     </div>
   );
