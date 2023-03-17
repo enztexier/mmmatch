@@ -28,21 +28,21 @@ const App = () => {
     setClick(true);
   };
 
-  const [isModalVisible, setModalVisible] = useState(false);
+  const [isModalVisible, setModalVisible] = useState(false)
+
   const toggleModal = () => {
     setModalVisible(!isModalVisible);
   };
 
   return (
     <>
-      <div className='ban-box'>
-        <h1 className='title'>MMMATCH</h1>
-        <p className="stars">✦</p>
-      </div>
-
-    <button onClick={toggleModal}>modale</button>
 
       <Modal isModalVisible={isModalVisible} toggleModal={toggleModal}></Modal>
+
+      <div className='ban-box'>
+        <h1 className='title'>MMMATCH</h1>
+        <p className="stars" onClick={toggleModal}>✦</p>
+      </div>
 
       <div className='box'>
         {click ?

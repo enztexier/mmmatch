@@ -27,6 +27,11 @@ body{
     font-size: 2rem;
     color: white;
     padding-right: 3%;
+    z-index: 3;
+}
+
+.stars:hover{
+    color: red
 }
 
 .title{
