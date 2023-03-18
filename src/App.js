@@ -6,6 +6,7 @@ import Display from "./Display";
 import Modal from './Modal';
 import './Sunwish-Maverick.otf';
 import './grainy-gradients.jpg';
+import stars from './square-three.png';
 
 const App = () => {
 
@@ -41,7 +42,7 @@ const App = () => {
 
       <div className='ban-box'>
         <h1 className='title'>MMMATCH</h1>
-        <p className="stars" onClick={toggleModal}>✦</p>
+        <img src={stars} className="stars" onClick={toggleModal} />
       </div>
 
       <div className='box'>

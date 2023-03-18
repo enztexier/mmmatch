@@ -75,3 +75,13 @@
       transform: translateY(0%);
     }
   }
+
+.prev img{
+    width: 7rem;
+    padding: 2rem;
+  }
+
+.next img{
+    width: 7rem;
+    padding: 2rem;
+  }

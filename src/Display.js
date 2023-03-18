@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Display.css';
+import leftArrow from './left-arrow.png';
+import rightArrow from './right-arrow.png';
 
 const Display = ({ quotes, setClick }) => {
 
@@ -71,10 +73,10 @@ const Display = ({ quotes, setClick }) => {
       <div className='direction'>
         <div className='arrow'>
           <div className='prev'>
-            {indexArray > 1 && <button onClick={() => prevQuote()}>←</button>}
+            {indexArray > 1 && <img src={leftArrow} onClick={() => prevQuote()} />}
           </div>
           <div className='next'>
-            {quotes.length === history.length && indexArray > history.length ? '' : <button onClick={() => nextQuote()}>→</button>}
+            {quotes.length === history.length && indexArray > history.length ? '' : <img src={rightArrow} onClick={() => nextQuote()} />}
           </div>
         </div>
         <button className='back-button' onClick={() => setClick(false)}>MENU</button>
@@ -93,4 +95,5 @@ export default Display;
             );
           })}
 
+          <button onClick={() => nextQuote()}>→</button>
 */

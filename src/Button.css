@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "GuyonGazebo";
+    src: local("GuyonGazebo"),
+     url("./GuyonGazebo-Regular.otf") format("opentype");
+    }
+
 .menu_button{
     background-color: transparent;
     border: 0.5rem solid;
@@ -11,10 +17,14 @@
     cursor: pointer;
     border-radius: 50%;
     font-family: GuyonGazebo;
+    animation: 2s fade-simple ease-out forwards;
 }
 
-@font-face {
-    font-family: "GuyonGazebo";
-    src: local("GuyonGazebo"),
-     url("./GuyonGazebo-Regular.otf") format("opentype");
-    }
+@keyframes fade-simple {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }

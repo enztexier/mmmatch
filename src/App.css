@@ -24,14 +24,16 @@ body{
 }
 
 .stars {
-    font-size: 2rem;
     color: white;
-    padding-right: 3%;
     z-index: 3;
+    width: 4rem;
+    height: 4rem;
+    transition: 1s;
 }
 
 .stars:hover{
-    color: red
+    transform: rotate(180deg);
+    transition: 1s;
 }
 
 .title{
