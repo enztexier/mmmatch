@@ -5,10 +5,12 @@ import rightArrow from './right-arrow.png';
 
 const Display = ({ quotes, setClick }) => {
 
-  let indexRandom = 0;
+
   const [indexArray, setIndexArray] = useState(0);
   const [history, setHistory] = useState([]);
   const [single, setSingle] = useState('yooooo');
+
+  let indexRandom = 0;
 
   let randomNumber = (max) => {
     return Math.floor(Math.random() * max);

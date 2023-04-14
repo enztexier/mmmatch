@@ -1,87 +1,122 @@
-@font-face {
-    font-family: "Deserved";
-    src: local("Deserved"),
-        url("./Deserved.ttf") format("truetype");
-}
-
 .master-box {
-    padding: 3%;
-    margin-top: 3%;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  padding: 3%;
+  margin-top: 3%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.master-box h1 {
-    color: white;
-    font-family: Deserved;
-    font-size: 4rem;
-    text-align: center;
-}
 
 .direction {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  position: fixed;
+  width: 100vw;
+  bottom: 0%;
 }
 
 .arrow {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.back-button{
+
+
+
+.lineUp {
+  animation: 2s anim-lineUp ease-out forwards;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(130%);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+@media screen and (min-width : 688px) {
+
+  .master-box h1 {
+    color: white;
+    font-family: Deserved;
+    font-size: 6rem;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .prev img {
+    width: 5rem;
+    padding-left: 2rem;
+
+  }
+
+  .next img {
+    width: 5rem;
+    padding-right: 2rem;
+
+  }
+
+  .back-button {
     background-color: transparent;
     color: white;
-    font-size: 1.3em;
+    font-size: 2em;
     font-family: GuyonGazebo;
     border: 0px solid transparent;
     text-decoration: overline;
+  }
+
 }
 
-.next button{
+@media screen and (max-width: 687px) {
+
+  .master-box h1 {
+    color: white;
+    font-family: Deserved;
+    font-size: 10vw;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .prev img {
+    width: 6rem;
+    padding-left: 2rem;
+
+  }
+
+  .next img {
+    width: 6rem;
+    padding-right: 2rem;
+
+  }
+
+  .back-button {
     background-color: transparent;
     color: white;
-    font-size: 7em;
+    font-size: 1.5em;
+    font-family: GuyonGazebo;
     border: 0px solid transparent;
+    text-decoration: overline;
+  }
+
 }
-
-.prev button{
-    background-color: transparent;
-    color: white;
-    font-size: 7em;
-    border: 0px solid transparent;
-}
-
-.lineUp {
-    animation: 2s anim-lineUp ease-out forwards;
-  }
-  @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(130%);
-    }
-    20% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-
-.prev img{
-    width: 7rem;
-    padding: 2rem;
-  }
-
-.next img{
-    width: 7rem;
-    padding: 2rem;
-  }

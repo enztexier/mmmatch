@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: "Sunwish";
+  src: local("Sunwish"),
+    url("./Sunwish-Maverick.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: "Deserved";
+  src: local("Deserved"),
+    url("./Deserved.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GuyonGazebo";
+  src: local("GuyonGazebo"),
+    url("./GuyonGazebo-Regular.otf") format("opentype");
+}

@@ -16,13 +16,13 @@
     },
     {
         "id": "4",
-        "quote": " YOOOOOOOOOOOO, C’est ton dernier repas, que choisis tu ? Tu as le droit à 3 plats !",
+        "quote": " Heyyyy, C’est ton dernier repas, que choisis tu ? Tu as le droit à 3 plats !",
         "type": "ALL"
     },
     {
         "id": "5",
         "quote": "Pour demain soir, tu préfères restaurant italien ou indien ?",
-        "type": "Pour Lui"
+        "type": "ALL"
     },
     {
         "id": "6",
@@ -41,12 +41,189 @@
     },
     {
         "id": "9",
-        "quote": "Si tu es le fruit de mon imagination, j’en suis fière. J’espère qu’il ne cessera jamais de t’imaginer si c’est le cas",
+        "quote": "Si tu es le fruit de mon imagination, j’en suis fière. J’espère qu’il ne cessera jamais de t’imaginer si c’est le cas.",
         "type": "ALL"
     },
     {
         "id": "10",
-        "quote": "Tu ne peux pas etre réelle, tu est forcement le fruit de mon imagination",
+        "quote": "Tu ne peux pas etre réelle, tu est forcement le fruit de mon imagination.",
+        "type": "ALL"
+    },
+    {
+        "id": "11",
+        "quote": "Tu est pétillante comme Champagne, délicate comme un vin de Bourgogne, raffinnée comme un cognac, douce comme un cidre. Putain ce que j'ai soif.",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "12",
+        "quote": "Mon amour pour toi c'est comme la diarrhée, je ne peux pas me retenir.",
+        "type": "ALL"
+    },
+    {
+        "id": "13",
+        "quote": "Tu ne serais pas une entreprise ? car j'aimerais te gérer.",
+        "type": "ALL"
+    },
+    {
+        "id": "14",
+        "quote": "Tu me fais penser à un appareil photo : à chaque fois que je te vois je souris.",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "15",
+        "quote": "À part être beau tu fais quoi dans la vie toi ?",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "16",
+        "quote": "À part être belle tu fais quoi dans la vie toi ?",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "17",
+        "quote": "Tu n'aurais pas un constat chez toi par hasard ? Car tu vas me rentrer dedans, je sens tout à l'heure.",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "18",
+        "quote": "J'ai lu que les bisous étaient une forme de language. Tu veux pas qu'on discute ?",
+        "type": "ALL"
+    },
+    {
+        "id": "19",
+        "quote": "J'ai lu que la langue était un muscle. On fait un bras de fer ?",
+        "type": "ALL"
+    },
+    {
+        "id": "20",
+        "quote": "Je peux etre Cendrillion, pour que tu puisse voir si ca rentre.",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "21",
+        "quote": "D'habitude je suis vegan mais pour ta viande je veux bien faire exception.",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "22",
+        "quote": "Je me sens tel un viking en quête de gloire.",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "23",
+        "quote": "Je ne suis pas un pirate mais je prends le riques de t'aborder.",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "24",
+        "quote": "Tu veux pas m'accompagner en physique car je dois présenter une bombe.",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "25",
+        "quote": "Je démissionne immédiatement pour toi, je vais te faire un boulot de dingue.",
+        "type": "ALL"
+    },
+    {
+        "id": "26",
+        "quote": "T’as pas un doliprane ? Parce que ta beauté me donne mal à la tête ! ",
+        "type": "ALL"
+    },
+    {
+        "id": "27",
+        "quote": "J'adorais prendre un verre avec toi mais je n'ai pas le permis port d'arme, du coup je ne sais quoi faire d'un canon comme toi.",
+        "type": "ALL"
+    },
+    {
+        "id": "28",
+        "quote": "En temps normal je suis un très bon nageur, mais là je ne comprends pas je me noie dans tes yeux.",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "29",
+        "quote": "Dis moi tu n'aurais pas de la Ventoline, parce que je n'arrive plus à respirer.",
+        "type": "ALL"
+    },
+    {
+        "id": "30",
+        "quote": "Dis moi, tu n'aurais pas mal à la tête ? Parec que j'aimerais être ton doliprane pour que tu me casse en deux.",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "31",
+        "quote": "Tu n'aurais pas un pansement ? Parce que je me suis blessé le genou en tombant sous ton charme.",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "32",
+        "quote": "Tu es sûre de ne pas être un mannequin déodorant ? Parce que ca sent bon cette histoire.",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "33",
+        "quote": "Tu aimes l’eau ? Alors, tu aimes déjà 70 % de ma personne !",
+        "type": "ALL"
+    },
+    {
+        "id": "34",
+        "quote": "En amour, je suis aussi douce qu’une glace. Je n’attends qu’à être léchée !",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "35",
+        "quote": "Je ne suis pas femme à faire souvent le premier pas ou à courir après les mecs. Mais en visitant ton profil, j’ai tout de suite eu envie de me mettre au jogging.",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "36",
+        "quote": "Si je n’avais plus que 3 heures à vivre, je te ferais l’amour comme personne n’a jamais fait l’amour de toute sa vie. Puis, on passera les prochaines 2h55 sur Netflix !",
+        "type": "ALL"
+    },
+    {
+        "id": "37",
+        "quote": "Tu es comme une clôture électrifiée. Je pense que si je t’approche, le courant pourrait bien passer entre nous !",
+        "type": "ALL"
+    },
+    {
+        "id": "38",
+        "quote": "Tes yeux me font l’effet d’une balle en plein cœur. Tu ne serais pas une parente de Marc Lavoine ?",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "39",
+        "quote": "Je voulais t'envoyer une disquette, mais là, c'est une couronne qui va la mieux à une princesse 👑 ",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "40",
+        "quote": "REX viens ici",
+        "type": "Pour Lui"
+    },
+    {
+        "id": "41",
+        "quote": "Bah dis-donc... Tu viens plus aux soirées ?",
+        "type": "ALL"
+    },
+    {
+        "id": "42",
+        "quote": "Je suis tel un tournesol quand je te vois.",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "43",
+        "quote": "Heureusement que je ne suis pas allergique au lactose, parce que tu passes crème.",
+        "type": "ALL"
+    },
+    {
+        "id": "44",
+        "quote": "Heureusement que je ne suis pas en verre d'eau citronnée en plein cagnard, tu m'aurais tout meme gelé avec ta fraicheur.",
+        "type": "ALL"
+    },
+    {
+        "id": "45",
+        "quote": "Je peux faire une capture d'écran de ta photo ? Je vais l'envoyer au Père Noël.",
         "type": "ALL"
     }
+
+
 ]

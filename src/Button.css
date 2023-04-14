@@ -1,30 +1,47 @@
 @font-face {
-    font-family: "GuyonGazebo";
-    src: local("GuyonGazebo"),
-     url("./GuyonGazebo-Regular.otf") format("opentype");
-    }
+  font-family: "GuyonGazebo";
+  src: local("GuyonGazebo"),
+    url("./GuyonGazebo-Regular.otf") format("opentype");
+}
 
-.menu_button{
-    background-color: transparent;
-    border: 0.5rem solid;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 5em;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 50%;
-    font-family: GuyonGazebo;
-    animation: 2s fade-simple ease-out forwards;
+.menu_button {
+  background-color: transparent;
+  border: 0.5rem solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-family: GuyonGazebo;
+  animation: 2s fade-simple ease-out forwards;
 }
 
 @keyframes fade-simple {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width : 688px) {
+
+  .menu_button {
+    font-size: 6rem;
+  }
+
+}
+
+@media screen and (max-width: 687px) {
+
+  .menu_button {
+    font-size: 13vw;
+  }
+
+}
