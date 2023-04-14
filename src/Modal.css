@@ -87,7 +87,6 @@
 
   @media screen and (min-width : 688px) {
 
-
       .content-modale h3 {
           font-family: GuyonGazebo;
           font-size: 4rem;
@@ -100,6 +99,7 @@
           font-size: 2rem;
           color: white;
           margin: 0;
+          width: 90vw;
       }
 
       .link-discord {
@@ -111,26 +111,25 @@
 
   @media screen and (max-width: 687px) {
 
-
       .content-modale h3 {
           font-family: GuyonGazebo;
           font-size: 3rem;
           color: orange;
           margin: 0;
+          width: 90vw;
       }
 
       .content-modale h6 {
           font-family: BlackSemiCondensed;
-          font-size: 1.5rem;
+          font-size: 1rem;
           color: white;
           margin: 0;
+          width: 90vw;
       }
 
       .link-discord {
           padding-top: 5%;
           padding-bottom: 30%;
       }
-
-
 
   }
