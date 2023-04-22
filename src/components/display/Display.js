@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Display.css';
-import leftArrow from './left-arrow.png';
-import rightArrow from './right-arrow.png';
+import leftArrow from '../../assets/img/left-arrow.png';
+import rightArrow from '../../assets/img/right-arrow.png';
 
 const Display = ({ quotes, setClick }) => {
 

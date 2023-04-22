@@ -1,12 +1,12 @@
 import './App.css';
-import Data from "./Data.json";
+import Data from "./assets/data/Data.json";
 import { useState } from "react";
-import Buttons from "./Buttons";
-import Display from "./Display";
-import Modal from './Modal';
-import './Sunwish-Maverick.otf';
-import './grainy-gradients.jpg';
-import stars from './square-three.png';
+import Buttons from "./components/button/Buttons";
+import Display from "./components/display/Display";
+import Modal from './components/modal/Modal';
+import './assets/fonts/Sunwish-Maverick.otf';
+import './assets/img/grainy-gradients.jpg';
+import stars from './assets/img/square-three.png';
 
 const App = () => {
 

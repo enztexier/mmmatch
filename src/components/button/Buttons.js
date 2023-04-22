@@ -1,7 +1,7 @@
 import React from "react";
-import Data from "./Data";
+import Data from "../../assets/data/Data.json";
 import './Button.css';
-import './GuyonGazebo-Regular.otf';
+import '../../assets/fonts/GuyonGazebo-Regular.otf';
 
 const Buttons = ({ filterQuotes, setQuotes, menuTypes, setClick }) => {
 

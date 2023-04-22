@@ -20,7 +20,6 @@
       animation: fade-out 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   }
 
-
   @-webkit-keyframes fade-in {
       0% {
           opacity: 0;
@@ -70,20 +69,6 @@
       height: 80%;
       text-align: center;
   }
-
-  @font-face {
-      font-family: "GuyonGazebo";
-      src: local("GuyonGazebo"),
-          url("./GuyonGazebo-Regular.otf") format("opentype");
-  }
-
-  @font-face {
-      font-family: "BlackSemiCondensed";
-      src: local("BlackSemiCondensed"),
-          url("./BlackSemiCondensed.otf") format("opentype");
-  }
-
-
 
   @media screen and (min-width : 688px) {
 

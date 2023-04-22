@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "GuyonGazebo";
-  src: local("GuyonGazebo"),
-    url("./GuyonGazebo-Regular.otf") format("opentype");
-}
-
 .menu_button {
   background-color: transparent;
   border: 0.5rem solid;
