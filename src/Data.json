@@ -16,7 +16,7 @@
     },
     {
         "id": "4",
-        "quote": " Heyyyy, C’est ton dernier repas, que choisis tu ? Tu as le droit à 3 plats !",
+        "quote": "T'as mangé combien de céréales lion, pour être aussi grrr...",
         "type": "ALL"
     },
     {
@@ -96,7 +96,7 @@
     },
     {
         "id": "20",
-        "quote": "Je peux etre Cendrillion, pour que tu puisse voir si ca rentre.",
+        "quote": "Je peux être Cendrillion, pour que tu puisse voir si ca rentre.",
         "type": "Pour Lui"
     },
     {
@@ -116,7 +116,7 @@
     },
     {
         "id": "24",
-        "quote": "Tu veux pas m'accompagner en physique car je dois présenter une bombe.",
+        "quote": "Tu veux pas m'accompagner en cours de physique car je dois présenter une bombe.",
         "type": "Pour Elle"
     },
     {
@@ -171,8 +171,8 @@
     },
     {
         "id": "35",
-        "quote": "Je ne suis pas femme à faire souvent le premier pas ou à courir après les mecs. Mais en visitant ton profil, j’ai tout de suite eu envie de me mettre au jogging.",
-        "type": "Pour Lui"
+        "quote": "J'ai envie d'être ton parfum pour être sur toit tout les jours",
+        "type": "ALL"
     },
     {
         "id": "36",
@@ -191,7 +191,7 @@
     },
     {
         "id": "39",
-        "quote": "Je voulais t'envoyer une disquette, mais là, c'est une couronne qui va la mieux à une princesse 👑 ",
+        "quote": "Je voulais t'envoyer une disquette, mais là, c'est une couronne qui va le mieux à une princesse 👑 ",
         "type": "Pour Elle"
     },
     {
@@ -216,14 +216,388 @@
     },
     {
         "id": "44",
-        "quote": "Heureusement que je ne suis pas en verre d'eau citronnée en plein cagnard, tu m'aurais tout meme gelé avec ta fraicheur.",
+        "quote": "Pour être honnête, je n’ai vraiment rien d’intéressant à te raconter, mais j’avais trop envie de te parler.",
         "type": "ALL"
     },
     {
         "id": "45",
         "quote": "Je peux faire une capture d'écran de ta photo ? Je vais l'envoyer au Père Noël.",
         "type": "ALL"
+    },
+    {
+        "id": "46",
+        "quote": "Si j'étais astronaute je te donnerais toutes les étoiles, mais je suis charcutier. De la rosette ça te vas ?",
+        "type": "ALL"
+    },
+    {
+        "id": "47",
+        "quote": "Je me suis fait arrêté par la Police en t’écrivant… il m’a fait toute une leçon genre ne jamais conduire et texter, je lui ai expliqué que c’est Tinder en fait… Et je lui ai montré ta photo. Il m’a laissé partir à condition de t’inviter pour un premier rendez-vous.",
+        "type": "ALL"
+    },
+    {
+        "id": "48",
+        "quote": "Embrasse-moi si je me trompe, mais les dinosaures existent encore, non ?" ,
+        "type": "Pour Lui"
+    },
+    {
+        "id": "49",
+        "quote": "Envoie-moi le GIF qui te correspond le plus",
+        "type": "ALL"
+    },
+    {
+        "id": "50",
+        "quote": "On m’a toujours dit de ne pas parler à des jolies inconnues sur internet… mais là, dans le doute, même si te me demande un western union je plonge" ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "51",
+        "quote": "Tu es trop belle pour être vrai, ca sent le western union" ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "52",
+        "quote": "Je crois que ton père est un voleur, il a volé toutes les étoiles.... Et merde, en vrai je ne sais pas quoi dire. Tellement je suis ébahie, subjuguée, époustouflé." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "53",
+        "quote": "Tu t’appelles pas Google ? Parce que tu as tout ce que je recherche." ,
+        "type": "ALL"
+    },
+    {
+        "id": "54",
+        "quote": "Franchement, Pourquoi tu te casses la tête à créer de faux profils et piquer les photos des jolies brunes ? Ca suffit comme ça. Trop c’est trop." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "55",
+        "quote": "N’importe qui peut être stylé. Mais être top comme toi demande de l’entraînement !" ,
+        "type": "ALL"
+    },
+    {
+        "id": "56",
+        "quote": "Quelle taille de chaussures de bowling dois-je prendre pour toi ? Ce soir 20h." ,
+        "type": "ALL"
+    },
+    {
+        "id": "57",
+        "quote": "Raconte moi ta vie uniquement en emoji !" ,
+        "type": "ALL"
+    },
+    {
+        "id": "58",
+        "quote": "Dis moi ton film préféré uniquement en emoji !",
+        "type": "ALL"
+    },
+    {
+        "id": "59",
+        "quote": "J'ai du mal à respirer... je sais pas si c'est le covid ou ta beauté qui m'étouffe" ,
+        "type": "ALL"
+    },
+    {
+        "id": "60",
+        "quote": "Tu serais pas la déesse de la mort parce que ton clin d'oeil fais remonter les morts de leurs cerceuils." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "61",
+        "quote": "Tu sais quelle différence entre toi et une voiture ? C'est que toi tu n'as pas besoin de phares pour briller ✨" ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "62",
+        "quote": "Par hasard, serais-tu intéressé*e par un plan à 3 ? Toi, moi et le bonheur." ,
+        "type": "ALL"
+    },
+    {
+        "id": "63",
+        "quote": "Tu ne cherches pas du travail ? Parce que Disney recherche des princesses " ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "64",
+        "quote": "Tu voudrais pas qu'on joue au poker ? Comme ça, je pourrais tout miser sur toi 😎",
+        "type": "ALL"
+    },
+    {
+        "id": "65",
+        "quote": "Ton père il travaillerait pas chez Nintendo, parce qu'il à fait une DS." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "66",
+        "quote": "Est-ce que tu es un temps composé de l'indicatif ? Car tu est plus-que-parfait." ,
+        "type": "ALL"
+    },
+    {
+        "id": "67",
+        "quote": "J'aimerais être ton calendrier de l'avent pour que tu m'ouvre et me déguste tout les jours." ,
+        "type": "Pour Lui"
+    },
+    {
+        "id": "68",
+        "quote": "Tu serais pas la fille de Will Smith ? Parce que ta beauté ma foutu une claque." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "69",
+        "quote": "J'aimerai bien t'emmener en voyage mais les aéroports interdisent le transport des bombes.",
+        "type": "Pour Elle"
+    },
+    {
+        "id": "70",
+        "quote": "Et merde, je suis encore tomber sous le charme." ,
+        "type": "ALL"
+    },
+    {
+        "id": "71",
+        "quote": "Tu ne serais pas la fille de Dali ? Parce que tu me fait fondre." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "72",
+        "quote": "Tu ne serais pas le fils de Dali ? Parce que tu me fait fondre." ,
+        "type": "Pour Lui"
+    },
+    {
+        "id": "73",
+        "quote": "Tu dois faire peur à Poutine. Comment veux tu arrêter une frappe comme toi." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "74",
+        "quote": "Je suis en train d'attraper un rhume, trop de fraicheur"  ,
+        "type": "ALL"
+    },
+    {
+        "id": "75",
+        "quote": "Quand je te vois, tout disparais autour de moi... un peu comme avec ma lessive XTRA total 3 en 1."  ,
+        "type": "ALL"
+    },
+    {
+        "id": "76",
+        "quote": " Tu veux pas qu'on court ensemble, je te laisserais un peu d'avance parce que j'aime bien courrir après mes rêves.",
+        "type": "ALL"
+    },
+    {
+        "id": "77",
+        "quote": "Tu serais pas un fruit exotique parce que t'es ma passion."  ,
+        "type": "ALL"
+    },
+    {
+        "id": "78",
+        "quote": "Tu es inestimable... comme la Joconde. Ou mon kebab à 4 heures du matin."  ,
+        "type": "ALL"
+    },
+    {
+        "id": "79",
+        "quote": "Paffff le Pokémon rare !" ,
+        "type": "ALL"
+    },
+    {
+        "id": "80",
+        "quote": "Niveau réchauffement climatique, tu le ralentis plus que Greta Thumberg." ,
+        "type": "ALL"
+    },
+    {
+        "id": "81",
+        "quote": "Tu vas envoyer Hollywood Chewgun fraicheur, à la faillite."  ,
+        "type": "ALL"
+    },
+    {
+        "id": "82",
+        "quote": "Toi, tu as été embauché par Greta Thumberg pour réprendre ta fraicheur sur le monde et ralentir le réchauffement climatique." ,
+        "type": "ALL"
+    },
+    {
+        "id": "83",
+        "quote": "Crois-tu en l'amour, au premier regard ou je dois passer une deuxième fois?" ,
+        "type": "ALL"
+    },
+    {
+        "id": "84",
+        "quote": "Tu fais pas du skate toi ? Parce que j'aimerai bien être ta chaussure, elles finissent toujours par être trouées."  ,
+        "type": "Pour Lui"
+    },
+    {
+        "id": "85",
+        "quote": "Je peux t'offrir à boire ? Même si je serais grave jalouse du verre."  ,
+        "type": "Pour Lui"
+    },
+    {
+        "id": "86",
+        "quote": "T'es encore plus Whaou qu'une crêpe Whaou." ,
+        "type": "ALL"
+    },
+    {
+        "id": "87",
+        "quote": "Quand j'étais petite je n'étais pas très LEGO, mais là... l'emboitement est très jouable." ,
+        "type": "Pour Lui"
+    },
+    {
+        "id": "88",
+        "quote": "Oh toi je sent que tu vas incruster dans ma tête. Comme du Patrick Sébastien." ,
+        "type": "ALL"
+    },
+    {
+        "id": "89",
+        "quote": "Si tu veux venir chez moi, je devrais tout d'abord en parler avec mon frigo, il ne vas pas apprécier la concurrence." ,
+        "type": "ALL"
+    },
+    {
+        "id": "90",
+        "quote": "Tu dois faire plus de ravage que le covid." ,
+        "type": "ALL"
+    },
+    {
+        "id": "91",
+        "quote": "Mon médecin m'as dit, un cachet à prendre matin et soir, c'est toi le cachet." ,
+        "type": "ALL"
+    },
+    {
+        "id": "92",
+        "quote": "Nous sommes en 1789, toi tu est la bastille et moi la révolution. Evidement la révolution prends la bastille."  ,
+        "type": "ALL"
+    },
+    {
+        "id": "93",
+        "quote": "Tu es le cancer du tabac que tu fais dans mon coeur. Okay ce n'est pas la meilleur métaphore mais je n'ai trouvé que ca. C'est l'intention qui compte." ,
+        "type": "ALL"
+    },
+    {
+        "id": "94",
+        "quote": "En vrai je suis pas top en math, mais Toi + Moi : ca fait Bonheur !" ,
+        "type": "ALL"
+    },
+    {
+        "id": "95",
+        "quote": "Tu seras le sablier que je n'ai jamais eu." ,
+        "type": "ALL"
+    },
+    {
+        "id": "96",
+        "quote": "Tu es pire que le café du matin toi." ,
+        "type": "ALL"
+    },
+    {
+        "id": "97",
+        "quote": "Plus fraiche que de la crème fraiche." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "98",
+        "quote": "Roucoucoucoucoucou" ,
+        "type": "ALL"
+    },
+    {
+        "id": "99",
+        "quote": "J'allais te sortir une disquette mais il n'y a plus rien à part toi." ,
+        "type": "ALL"
+    },
+    {
+        "id": "100",
+        "quote": "Faut arrêter de rester autant de temps dans le frigo." ,
+        "type": "ALL"
+    },
+    {
+        "id": "101",
+        "quote": "Je ne sais pas quel appât tu as mis, mais j'ai mordu à l'hamecon." ,
+        "type": "ALL"
+    },
+    {
+        "id": "102",
+        "quote": "Tu est comme mon petit orteil, je te prend dans tout les coins du lit." ,
+        "type": "ALL"
+    },
+    {
+        "id": "103",
+        "quote": "Si ta jambe droite c'est le déjeuner et ta jambe gauche le dîner, ça me dis bien de grignoter entre les repas." ,
+        "type": "ALL"
+    },
+    {
+        "id": "104",
+        "quote": "C'est pas toi qui lance des pierres ?!. Car tu m'as taper dans l'oeil." ,
+        "type": "ALL"
+    },
+    {
+        "id": "105",
+        "quote": "Le CBD je connais bien, je dois dire que j'excelle dans le roulage, mais là, tu est encore bien mieux roulée." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "106",
+        "quote": "J'ai un certain talents pour le rubiks cube, j'en retournais tout les jours. Mais du coup, je suis un peu trop rapide." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "107",
+        "quote": "Tu me fais plus d'effet que l'intro de Netflix." ,
+        "type": "ALL"
+    },
+    {
+        "id": "108",
+        "quote": "C'est pas la Chandeleur, mais je souhaite que ça le soit dès demain pour retourner des crêpes." ,
+        "type": "ALL"
+    },
+    {
+        "id": "109",
+        "quote": "Ca va, pas trop mal au pieds à force de porter ta beauté." ,
+        "type": "ALL"
+    },
+    {
+        "id": "110",
+        "quote": "J'aime bien déchirer les papiers cadeaux, mais là, c'est pas que le cadeau que je veux." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "111",
+        "quote": "'Il faut souffrir pour être belle', alors toi, tu as frolé la mort." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "112",
+        "quote": "L'amour c'est comme la grippe, ça s'attrape dehors ça se termine au lit." ,
+        "type": "ALL"
+    },
+    {
+        "id": "113",
+        "quote": "J'ai envie de te faire un calin mais le gardin du musé m'as dit de ne pas toucher aux oeuvres d'arts." ,
+        "type": "ALL"
+    },
+    {
+        "id": "114",
+        "quote": "Tu serais pas hôtesses de l'air ? Car quand je te vois j'ai la tête dans les nuages." ,
+        "type": "Pour Elle"
+    },
+    {
+        "id": "115",
+        "quote": "J'aime bien me réchauffer avec du vin, mais là, je n'en ai pas besoin." ,
+        "type": "ALL"
+    },
+    {
+        "id": "116",
+        "quote": "Oh toi, tu vas plus me réchauffer que mon rhum." ,
+        "type": "ALL"
+    },
+    {
+        "id": "117",
+        "quote": "Tu es comme un Marseillais qui sait conduire. Vraiment unique en son genre, même rarissime." ,
+        "type": "ALL"
+    },
+    {
+        "id": "118",
+        "quote": "T'es comme mon coin secret à champignons. J'ai envie de t'avoir rien qu'à moi." ,
+        "type": "ALL"
+    },
+    {
+        "id": "119",
+        "quote": "T'es comme une bière IPA de bobo. Je t'aime en cachette." ,
+        "type": "ALL"
+    },
+    {
+        "id": "120",
+        "quote": "Tu serais pas le 'i' dans le verbe aimer ? parceque sans toi la vie est amer." ,
+        "type": "ALL"
     }
-
 
 ]
